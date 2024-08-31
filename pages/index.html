@@ -5,23 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/css/output.css" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
   <body>
     <header class="header">
-        <div class="contiener">
-            <div class="navbar flex justify-between items-center">
-              <a href="logo"> <img src="/img/logo (7).png" alt="logo"></a> 
-                <div class="menu">
-                    <ul class="flex gap-11">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <button class="rounded-[60px] px-[36px] py-[21px] w-[230px] h-[60px] bg-green text-oq" type="button">Take a scoring test</button>
-            </div>
+      <div class="contiener">
+        <div class="navbar flex justify-between items-center">
+          <a href="logo"> <img src="/img/logo (7).png" alt="logo" /></a>
+          <div class="menu">
+            <ul class="flex gap-11">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <button
+            class="rounded-[60px] px-[36px] py-[21px] w-[230px] h-[60px] bg-green text-oq"
+            type="button"
+          >
+            Take a scoring test
+          </button>
         </div>
+      </div>
     </header>
+
+    <main>
+      <section class="showcase mt-4">
+        <div class="contiener">
+          <div class="f flex items-center justify-between ">
+            <div class="left ">
+              <h3 class="font-normal text-[70px] text-[#32333d]">
+                One platform <br />
+                meeting
+                <span class="text-green"
+                  >all your <br />
+                  relocation</span
+                >
+                needs
+              </h3>
+              <p class="p font-normal text-[24px] leading-[158%] text-[#5b6574] mt-3">
+                Get a Global Talent Visa and relocate to the UK. <br> Start your
+                journey now
+              </p>
+              <div class="flex items-center gap-3">
+
+                <button  class=" mt-[20px]  rounded-[60px] px-[36px] py-[21px] w-[230px] h-[60px] bg-green text-oq"    type="button"  > Take a scoring test  
+                  
+                </button>
+                <p class=" p1 mt-5 font-normal text-[16px] leading-[162%] text-[#cad3e0]">Evaluate your chances and get detailed <br> feedback from our team</p>
+              </div>
+              </div>
+              <img class=" r w-1/2" src="/img/about.png" alt="as">
+          </div>
+
+        </div>
+      </section>
+
+      <section class="swipper_cards mt-[20px]">
+        <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="/img/brend1.png" alt=""></div>
+      <div class="swiper-slide"><img src="/img/brend2.png" alt=""></div>
+      <div class="swiper-slide"><img src="/img/brend3.png" alt=""></div>
+      <div class="swiper-slide"><img src="/img/brend4.png" alt=""></div>
+      <div class="swiper-slide"><img src="/img/brend5.png" alt=""></div>
+      <div class="swiper-slide"><img src="/img/brend6.png" alt=""></div>
+      <div class="swiper-slide"><img src="/img/brend7.png" alt=""></div>
+      <div class="swiper-slide"><img src="/img/brend8.png" alt=""></div>
+      <div class="swiper-slide"><img src="/img/brend9.png" alt=""></div>
+      
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+      </section>
+ 
+ 
+ 
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 7,
+      spaceBetween: 30,
+       breakpoints: {
+      280: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      800:{
+        slidesPerView:3,
+        spaceBetween:30,
+      },
+      1140: {
+        slidesPerView: 6,
+        spaceBetween: 40,
+      },
+    },
+       autoplay: {
+    delay: 1000,
+  },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
   </body>
 </html>

@@ -98,6 +98,35 @@
       text-align: center;
     }
     }
+
+    @media (max-width:1464px){
+      .card{
+        width: 500px;
+        height: 400px;
+      }
+      .p{
+        display: none;
+      }
+      .t{
+        text-align: center;
+        font-size: 40px;
+
+      }
+      .h{
+        font-size: 15px;
+        text-align: center;
+      }
+
+    }
+    @media (max-width:1254px){
+      .d{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+      }
+    }
     
 
     .header{
@@ -119,6 +148,9 @@ a:hover{
 button:hover{
   background-color: antiquewhite;
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 img{
   width: 100%;

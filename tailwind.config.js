@@ -19,7 +19,7 @@ module.exports = {
       ochyashil: "#EDFFF5",
     },
     fontFamily: {
-      sans: ["Roboto"],
+      sans: ["sans-serif"],
     },
     extend: {},
   },

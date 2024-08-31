@@ -20,8 +20,7 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <button
-            class="rounded-[60px] px-[36px] py-[21px] w-[230px] h-[60px] bg-green text-oq"
+          <button   class=" rounded-[60px] px-[36px] py-[21px] w-[230px] h-[60px] bg-green text-oq"
             type="button"
           >
             Take a scoring test
@@ -48,7 +47,7 @@
                 Get a Global Talent Visa and relocate to the UK. <br> Start your
                 journey now
               </p>
-              <div class="flex items-center gap-3">
+              <div class=" b flex items-center gap-3">
 
                 <button  class=" mt-[20px]  rounded-[60px] px-[36px] py-[21px] w-[230px] h-[60px] bg-green text-oq"    type="button"  > Take a scoring test  
                   
@@ -80,8 +79,58 @@
   </div>
       </section>
  
+    <section class="services mt-8">
+      <div class="contiener">
+        <div class="a flex items-center justify-between ">
+          <div class="left">
+            <h3 class="font-normal text-[36px]">Fast Service</h3>
+           <br>
+            <p class=" font-normal text-[18px] leading-[183%] text-[#5b6574]">We research, build, submit, and get approved visas in a fraction <br> of the time while working around your timelines.</p>
+          </div>
+          <img class=" i w-1/2 p-9" src="/img/services.png" alt="as">
+        </div>
+          <div class="a mt-4 flex items-center justify-between ">
+              <img class=" i w-1/2 p-9" src="/img/services2.png  " alt="as">
+          <div class="left">
+            <h3 class="font-normal text-[36px]">Fast Service</h3>
+           <br>
+            <p class=" font-normal text-[18px] leading-[183%] text-[#5b6574]">We research, build, submit, and get approved visas in a fraction <br> of the time while working around your timelines.</p>
+          </div>
+        
+        </div>
+         <div class="a mt-4 flex items-center justify-between ">
+          <div class="left">
+            <h3 class="font-normal text-[36px]">Fast Service</h3>
+           <br>
+            <p class=" font-normal text-[18px] leading-[183%] text-[#5b6574]">We research, build, submit, and get approved visas in a fraction <br> of the time while working around your timelines.</p>
+          </div>
+          <img class=" i w-1/2 p-9" src="/img/services3.png" alt="as">
+        </div>
+      </div>
+    </section>
  
- 
+
+    <section class="immigram mt-10">
+      <div class="contiener">
+        <h3 class="font-normal text-[60px] text-center text-[#32333d]">Who has relocated with the help <br> of Immigram?</h3>
+        <p class="font-normal text-[24px] leading-[158%] text-center text-[#5b6574]">You can be next! Start your relocation journey now</p>
+        <br>
+
+        <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+     
+      <div class="swiper-slide"><img src="/img/immigram1.png" alt=""></div>
+      <div class="swiper-slide"><img src="/img/immigram2.png" alt=""></div>
+      <div class="swiper-slide"><img src="/img/immigram3.png" alt=""></div>
+      <div class="swiper-slide"><img src="/img/immigram4.png" alt=""></div>
+      <div class="swiper-slide"><img src="/img/immigram5.png" alt=""></div>
+      
+      
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+      </div>
+    </section>
     </main>
 
 
@@ -93,39 +142,39 @@
 
 
 
-
-
-
-      <!-- Swiper JS -->
+ <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 7,
-      spaceBetween: 30,
-       breakpoints: {
-      280: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-      800:{
-        slidesPerView:3,
-        spaceBetween:30,
-      },
-      1140: {
-        slidesPerView: 6,
-        spaceBetween: 40,
-      },
-    },
-       autoplay: {
+      slidesPerView: 5,
+      spaceBetween: 10,
+      autoplay: {
     delay: 1000,
   },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      },
     });
-  </script>
+  // </script>
+
+
+  // </script>
   </body>
 </html>

@@ -8,11 +8,34 @@
     padding: 10px 40px;
     margin: 0 auto;
 }
-@media (min-width: 1440px) {
+@media (max-width: 1400px) {
   .container {
-
     max-width: 1240px;
+    
   }
+  }
+  @media (max-width:1139px) {
+      .menu ul{
+        display: none;
+      }
+  }
+  @media (max-width:763px) {
+      .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .navbar a img{
+       width: 100%;
+      }
+  }
+
+  @media (max-width:500px) {
+      
+      .navbar button{
+        width: 180px;
+        height: 50px;
+      }
   }
 
 
@@ -28,4 +51,7 @@ a:hover{
 button:hover{
   background-color: antiquewhite;
   color: black;
+}
+img{
+  width: 100%;
 }

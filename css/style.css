@@ -8,6 +8,8 @@
     padding: 10px 40px;
     margin: 0 auto;
 }
+
+
 @media (max-width: 1400px) {
   .contiener {
     max-width: 1240px;
@@ -127,8 +129,29 @@
         gap: 40px;
       }
     }
-    
-
+    @media (max-width:889px){
+      .te{
+        text-align: center;
+        font-size: 40px;
+      }
+    }
+    @media (max-width:889px){
+      .Platform h4{
+        text-align: center;
+        font-size: 30px;
+      }
+    }
+  @media (max-width:1202px){
+  .flex_ceo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .flex_ceo .right{
+    order: 1;
+  }
+  }
     .header{
       position: sticky;
       z-index: 99;
@@ -152,6 +175,7 @@ button:hover{
   align-items: center;
   justify-content: center;
 }
+
 img{
   width: 100%;
 }
